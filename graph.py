@@ -12,7 +12,6 @@ def steps(start,end,n):
 
 #########parameters####################################33
 def main(argv):
-	print(argv)
 	year = argv[0]
 	ctf = argv[1]
 	if(len(argv) == 3):
@@ -43,7 +42,6 @@ def main(argv):
 		scores = j[ctf]['scores']
 		webpage = urlopen(req).read()
 		jctf = json.loads(webpage.decode('utf-8'))
-		print(jctf)
 		print("*************************************************************")
 		print("Event name: "+jctf['title'])
 		print("Event id: "+str(jctf['id']))
