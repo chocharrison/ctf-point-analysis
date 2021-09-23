@@ -15,3 +15,13 @@ example:
 
 ![Screenshot (111)](https://user-images.githubusercontent.com/36957890/134520122-d2d2f6a5-0233-44de-a28a-0e2bb49f0067.png)
 
+
+packages:
+
+```
+urllib.request
+matplotlib
+json
+math
+numpy
+```
